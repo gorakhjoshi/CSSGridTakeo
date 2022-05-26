@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  height: 400px;
+  width: 300px;
+  flex-direction: column;
+  background-color: red;
+}
+
+.flex-item {
+  height: 100px;
+  width: 100px;
+  flex-basis: 100px;
+  background-color: green;
+}
+
+.first-item {
+  background-color: blue;
+  flex-grow: 1;
+  order: 4;
+}
+
+.second-item {
+  flex-grow: 2;
+  order: 2;
+}
